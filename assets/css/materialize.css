@@ -8309,12 +8309,14 @@ input[type=range]::-ms-thumb {
 }
 
 .slider .slides li .caption {
-  color: #fff;
+  color: #ffffff;
   position: absolute;
   top: 15%;
   left: 15%;
   width: 70%;
   opacity: 0;
+  filter:drop-shadow(0 5px 6px rgba(0,0,0,0.48));
+  
 }
 
 .slider .slides li .caption p {

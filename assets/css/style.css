@@ -235,3 +235,7 @@ position: absolute;
 {
   animation-delay: .3s;
 }
+
+.text-lighten-3{
+  filter:drop-shadow(0 6px 6px rgba(0, 0, 0, 0.561));
+}
